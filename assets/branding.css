@@ -1,0 +1,78 @@
+:root {
+  --primary-color: #A94994;
+  --secondary-color: #D24C2B;
+  --tertiary-color: #004665;
+}
+
+.branding-purple {
+    color: var(--primary-color);
+}
+
+.branding-primary {
+    color: var(--primary-color);
+}
+
+.branding-purple-bg {
+    background-color: var(--primary-color);
+}
+
+.branding-primary-bg {
+    background-color: var(--primary-color);
+}
+
+.branding-orange {
+    color: var(--secondary-color);
+}
+
+.branding-orange {
+    color: var(--secondary-color);
+}
+
+.branding-secondary {
+    color: var(--secondary-color);
+}
+
+.branding-orange-bg {
+    background-color: var(--secondary-color);
+}
+
+.branding-secondary-bg {
+    background-color: var(--secondary-color);
+}
+
+.branding-blue {
+    color: var(--tertiary-color);
+}
+
+.branding-tertiary {
+    color: var(--tertiary-color);
+}
+
+.branding-blue-bg {
+    background-color: var(--tertiary-color);
+}
+
+.branding-tertiary-bg {
+    background-color: var(--tertiary-color);
+}
+
+
+/*@font-face {
+    font-family: 'Quasimoda';
+    src: url('fonts/Quasimoda-Bold.woff2') format('woff2'),
+         url('fonts/Quasimoda-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Quasimoda';
+    src: url('fonts/Quasimoda-Regular.woff2') format('woff2'),
+         url('fonts/Quasimoda-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+.branding-font-cabin {
+    font-family: 'Cabin', sans-serif;
+}
