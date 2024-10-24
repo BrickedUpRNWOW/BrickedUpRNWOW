@@ -3,8 +3,6 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="description">
-    <meta name="author" content="author">
     <title>Home - Bricked Up RN</title>
     <link rel="icon" type="image/x-icon" href="wowfavico.png" />
     <link href="assets/bootstrap.min.css" rel="stylesheet">
@@ -79,25 +77,26 @@
     <header class="sticky-top py-1">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
-            <a href="<?php echo is_front_page() ? '#' : '/'; ?>">
-              <img class="navbar-brand logo px-3" style="max-height: 90px" src="assets/images/placeholder.png" alt="CONTENT HERE">
+            <a href="#">
+              <img class="navbar-brand logo px-3" style="max-height: 90px" src="assets/images/placeholder.png" alt="Bricked Up RN">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link active" href="#aboutUs">CONTENT HERE</a>
+                <a class="nav-link active" href="#aboutUs">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="assets/course_flyer.pdf" target="_blank">CONTENT HERE</a>
+                <a class="nav-link" href="#pve">PvE Progress</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/outline" target="_blank">CONTENT HERE</a>
+                <a class="nav-link" href="#pvp">PvP Team</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#pricing">CONTENT HERE</a>
+                <a class="nav-link" href="#recruitment">Recruitment</a>
               </li>
             </ul>
             </div>
@@ -109,239 +108,153 @@
     <!-- MAIN -->
     <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light background-image">
         <div class="col-md-5 p-lg-3 mx-auto mt-5">
-            <h4 class="display-4 fw-normal text-light">CONTENT HERE</h4>
-            <p class="lead fw-normal text-light mt-3">CONTENT HERE</p>
+            <h4 class="display-4 fw-normal text-light">Bricked Up RN</h4>
+            <p class="lead fw-normal text-light mt-3">A progression-oriented, laid-back guild on Horde - Area 52</p>
         </div>
         <div class="d-flex justify-content-center">
             <div class="border rounded" style="background-color: #171717; width: 400px;">
-                <p class="text-light fw-bold fs-3 mt-2">CONTENT HERE</p>
-                <p class="text-light fs-5 mt-3">CONTENT HERE</p>
+                <p class="text-light fw-bold fs-3 mt-2">Now Recruiting!</p>
+                <p class="text-light fs-5 mt-3">All classes and roles welcome. Join us for Heroic and Mythic progression!</p>
             </div>
         </div>
         <div class="col-md-5 p-lg-3 mx-auto mt-2 mb-3">
-            <a class="btn btn-secondary btn-lg registration-action-related branding-orange-bg" href="#registrationSection">CONTENT HERE</a>
-            <a class="btn btn-secondary btn-lg branding-purple-bg" href="CONTENT HERE" target="_blank">CONTENT HERE</a>
-            <a class="btn btn-secondary btn-lg branding-blue-bg" href="/outline" target="_blank">CONTENT HERE</a>
+            <a class="btn btn-secondary btn-lg registration-action-related branding-orange-bg" href="#recruitment">Join Us</a>
+            <a class="btn btn-secondary btn-lg branding-purple-bg" href="#contact" target="_blank">Contact Us</a>
+            <a class="btn btn-secondary btn-lg branding-blue-bg" href="#aboutUs" target="_blank">Learn More</a>
         </div>
     </div>
 
     <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-        <!-- SECTION NAME HERE -->
+        <!-- Guild Overview -->
         <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden branding-blue-bg">
             <div class="my-3 py-3">
-                <h2 class="display-5">CONTENT HERE</h2>
-                <p class="lead">CONTENT HERE</p>
-                <p class="lead">CONTENT HERE</p>
+                <h2 class="display-5">Guild Overview</h2>
+                <p class="lead">Founded during the War Within expansion, Bricked Up RN is a progression-oriented, laid-back guild on the Horde side of Area 52.</p>
+                <p class="lead">We focus on both PvE and PvP content, aiming to create a balanced and social environment.</p>
             </div>
             <div class="bg-body shadow-sm mx-auto main-box">
-                <img class="main-box-image" src="assets/images/placeholder.png" alt="CONTENT HERE">
+                <img class="main-box-image" src="assets/images/placeholder.png" alt="Guild Overview">
             </div>
         </div>
-        <!-- SECTION NAME HERE -->
-        <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <!-- PvE Focus and Progression -->
+        <div id="pve" class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
             <div class="my-3 py-3">
-                <h2 class="display-5">CONTENT HERE</h2>
-                <p class="lead">CONTENT HERE</p>
-                <p class="lead">CONTENT HERE</p>
+                <h2 class="display-5">PvE Focus and Progression</h2>
+                <p class="lead">Our primary focus is PvE content, including raids and mythic+ dungeons.</p>
+                <p class="lead">Currently progressing through Heroic Nerub-ar Palace (5/8), aiming for a full mythic clear.</p>
             </div>
             <div class="bg-body shadow-sm mx-auto main-box">
-                <img class="main-box-image" src="assets/images/placeholder.png" alt="CONTENT HERE">
+                <img class="main-box-image" src="assets/images/placeholder.png" alt="PvE Progression">
             </div>
         </div>
     </div>
 
     <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-        <!-- SECTION NAME HERE -->
-        <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <!-- PvP Aspirations -->
+        <div id="pvp" class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
             <div class="my-3 p-3">
-                <h2 class="display-5">CONTENT HERE</h2>
-                <p class="lead">CONTENT HERE</p>
+                <h2 class="display-5">PvP Aspirations</h2>
+                <p class="lead">While PvE is our core, we are ramping up our PvP presence.</p>
+                <p class="lead">Looking to build a solid PvP team to push Rated Battlegrounds and Arena content.</p>
             </div>
         </div>
-        <!-- SECTION NAME HERE -->
-        <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden branding-orange-bg">
+        <!-- Guild Culture -->
+        <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-white overflow-hidden branding-orange-bg">
             <div class="my-3 py-3">
-                <h2 class="display-5">CONTENT HERE</h2>
-                <p class="lead">CONTENT HERE</p>
+                <h2 class="display-5">Guild Culture</h2>
+                <p class="lead">Our guild culture is built on social interaction, fun, and progression without the drama.</p>
                 <ul class="list-unstyled text-center">
                     <li>
-                        <a class="text-white" href="/outline">
-                            <div class="lead position-relative" data-toggle="tooltip" data-placement="top" title="CONTENT HERE">
-                                <p class="lead d-flex justify-content-center align-items-center">
-                                    CONTENT HERE&nbsp;
-                                    <svg width="20" height="20" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z"></path>
-                                    </svg>
-                                </p>
-                            </div>
-                        </a>
+                        <p class="lead d-flex justify-content-center align-items-center">
+                            Relaxed and Positive Atmosphere
+                        </p>
                     </li>
                     <li>
-                        <p class="lead" style="margin-bottom: 0rem;">CONTENT HERE</p>
-                        <p class="lead">CONTENT HERE</p>
+                        <p class="lead" style="margin-bottom: 0rem;">Players of All Backgrounds Welcome</p>
+                        <p class="lead">Progression-Minded</p>
                     </li>
                     <li>
-                        <p class="lead">CONTENT HERE</p>
+                        <p class="lead">No Drama</p>
                     </li>
                 </ul>
                 <br>
                 <div class="d-flex align-items-center justify-content-center">
                     <p class="lead text-small fst-italic small-font">*</p>
-                    <p class="lead text-small fst-italic ms-2 small-font">CONTENT HERE</p>
+                    <p class="lead text-small fst-italic ms-2 small-font">Community is the heart of our guild</p>
                 </div>
             </div>
         </div>
     </div>
 
     <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-        <!-- SECTION NAME HERE -->
-        <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-white text-center overflow-hidden branding-blue-bg">
+        <!-- Recruitment Needs -->
+        <div id="recruitment" class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-white text-center overflow-hidden branding-blue-bg">
             <div class="my-3 p-3">
-                <h2 class="display-5">CONTENT HERE</h2>
-                <p class="lead">CONTENT HERE</p>
+                <h2 class="display-5">Recruitment Needs</h2>
+                <p class="lead">We're currently recruiting all roles and classes to strengthen both our raid and PvP teams.</p>
+                <p class="lead">Dedicated players passionate about improving and working towards guild goals.</p>
             </div>
             <div class="bg-body shadow-sm mx-auto main-box">
-                <img class="main-box-image" src="assets/images/placeholder.png" alt="CONTENT HERE">
+                <img class="main-box-image" src="assets/images/placeholder.png" alt="Recruitment">
             </div>
         </div>
-        <!-- SECTION NAME HERE -->
+        <!-- Events and Community -->
         <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
             <div class="my-3 py-3">
-                <h2 class="display-5">CONTENT HERE</h2>
-                <p class="lead">CONTENT HERE</p>
+                <h2 class="display-5">Events and Community</h2>
+                <p class="lead">We often group up spontaneously for activities like Timewalking, leveling, and mythic+ dungeons.</p>
+                <p class="lead">Discord is used to communicate and organize runs, as well as to hang out and discuss strategies.</p>
             </div>
             <div class="bg-body shadow-sm mx-auto main-box">
-                <img class="main-box-image" src="assets/images/placeholder.png" alt="CONTENT HERE">
+                <img class="main-box-image" src="assets/images/placeholder.png" alt="Events and Community">
             </div>
         </div>
     </div>
 
     <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-        <!-- SECTION NAME HERE -->
+        <!-- Looking to the Future -->
         <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
             <div class="my-3 p-3">
-                <h2 class="display-5">CONTENT HERE</h2>
-                <p class="lead">CONTENT HERE</p>
+                <h2 class="display-5">Looking to the Future</h2>
+                <p class="lead">We plan to establish more organized guild events, perks, and bonuses.</p>
+                <p class="lead">As we progress, we're excited to see our community grow.</p>
             </div>
             <div class="bg-body shadow-sm mx-auto main-box">
-                <img class="main-box-image" src="assets/images/placeholder.png" alt="CONTENT HERE">
+                <img class="main-box-image" src="assets/images/placeholder.png" alt="Looking to the Future">
             </div>
         </div>
-        <!-- SECTION NAME HERE -->
+        <!-- Join Us -->
         <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-white text-center overflow-hidden branding-orange-bg">
             <div class="my-3 p-3">
-                <h2 class="display-5">CONTENT HERE</h2>
-                <p class="lead">CONTENT HERE</p>
+                <h2 class="display-5">Join Us</h2>
+                <p class="lead">If you're looking for a guild where you can progress in both PvE and PvP, make friends, and enjoy the game, then join Bricked Up RN!</p>
             </div>
             <div class="bg-body shadow-sm mx-auto main-box">
-                <img class="main-box-image" src="assets/images/placeholder.png" alt="CONTENT HERE">
+                <img class="main-box-image" src="assets/images/placeholder.png" alt="Join Us">
             </div>
         </div>
     </div>
 
-    <div id="registrationSection" class="container registration-action-related mt-5">
-        <!-- SECTION NAME HERE -->
-        <h2 id="pricing">CONTENT HERE</h2>
+    <div id="contact" class="container registration-action-related mt-5">
+        <!-- Contact Us -->
+        <h2>Contact Us</h2>
         <div class="container mt-3">
-            <div class="row row-cols-1 row-cols-md-2 text-center justify-content-center">
-                <div class="col d-flex flex-column">
-                    <div class="card mb-4 rounded-3 shadow-sm h-100 d-flex flex-column">
-                        <div class="card-header py-3">
-                            <h4 class="my-0 fw-normal">CONTENT HERE</h4>
-                        </div>
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                            <h1 class="card-title pricing-card-title">CONTENT HERE<small class="text-muted fw-light">/person</small></h1>
-                            <h6 class="text-muted">+ CONTENT HERE</h6>
-                            <h6 class="mt-2">Includes</h6>
-                            <ul class="list-unstyled mt-3 flex-grow-1 text-center">
-                                CONTENT HERE
-                                <li class="position-relative" data-toggle="tooltip" data-placement="top" title="CONTENT HERE">
-                                    <div class="d-flex justify-content-center align-items-center">
-                                        CONTENT HERE&nbsp;
-                                        <svg width="20" height="20" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                          <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z"></path>
-                                        </svg>
-                                    </div>
-                                </li>
-                            </ul>
-                            <a class="btn btn-secondary btn-lg registration-action-related branding-blue-bg mt-auto" href="checkout/?courseType=enhanced">CONTENT HERE</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col d-flex flex-column">
-                    <div class="card mb-4 rounded-3 shadow-sm border-primary h-100 d-flex flex-column">
-                        <div class="card-header py-3 text-white bg-primary border-primary">
-                            <h4 class="my-0 fw-normal">CONTENT HERE</h4>
-                        </div>
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                            <h1 class="card-title pricing-card-title">CONTENT HERE<small class="text-muted fw-light">/person</small></h1>
-                            <h6 class="text-muted">+ CONTENT HERE</h6>
-                            <h6 class="mt-2">Includes</h6>
-                            <ul class="list-unstyled mt-3 flex-grow-1 text-center">
-                                <li class="position-relative mt-4" data-toggle="tooltip" data-placement="top" title="CONTENT HERE">
-                                    <div class="d-flex justify-content-center align-items-center">
-                                        CONTENT HERE&nbsp;
-                                        <svg width="20" height="20" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                          <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z"></path>
-                                        </svg>
-                                    </div>
-                                </li>
-                                <li class="position-relative" data-toggle="tooltip" data-placement="top" title="Features expert lawyers discussing current public procurement issues, offering OPBA members an invaluable opportunity for dialogue and learning.">
-                                    <div class="d-flex justify-content-center align-items-center">
-                                        CONTENT HERE&nbsp;
-                                        <svg width="20" height="20" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                          <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z"></path>
-                                        </svg>
-                                    </div>
-                                </li>
-                                <li class="text-small text-muted fst-italic small-font">CONTENT HERE</li>
-                            </ul>
-                            <a class="btn btn-secondary btn-lg registration-action-related branding-orange-bg mt-auto" href="checkout/?courseType=enhancedPlus">CONTENT HERE</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <h6 class="text-small text-muted mx-3 mb-4">CONTENT HERE</h6>
-
-        <div class="container mb-3">
             <div class="row">
                 <div class="col-md-6">
-                    <!-- SECTION NAME HERE -->
-                    <h2>CONTENT HERE</h2>
-                    <span class="text-muted">
-                        CONTENT HERE<br>
-                        CONTENT HERE<br>
-                        CONTENT HERE
-                    </span>
-
-                    <!-- SECTION NAME HERE -->
-                    <h2 class="mt-3">CONTENT HERE</h2>
-                    <span class="text-muted">
-                        CONTENT HERE<br>CONTENT HERE
-                    </span>
+                    <h3>In-Game</h3>
+                    <p class="text-muted">
+                        Reach out to any of our officers or send a message in-game.
+                    </p>
+                    <h3 class="mt-3">Discord</h3>
+                    <p class="text-muted">
+                        Join our Discord server to get to know us and for faster communication.
+                    </p>
                 </div>
                 <div class="col-md-6">
-                    <!-- SECTION NAME HERE -->
-                    <h2>CONTENT HERE</h2>
-                    <a href="CONTENT HERE" target="_blank">
-                        <span class="text-muted">
-                          CONTENT HERE
-                        </span>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <!-- SECTION NAME HERE -->
-        <div class="sponsors-container container">
-            <h2>CONTENT HERE</h2>
-            <h6>CONTENT HERE</h6>
-            <div class="row">
-                <div class="col-md-4 col-sm-6 col-12 mb-4">
-                    <a href="' . esc_url($sponsor_domain) . '">
-                    <img class="navbar-brand logo img-fluid" src="assets/images/placeholder.png" alt="' . esc_attr($sponsor_name) . '">
-                    </a>
+                    <h3>Email</h3>
+                    <p class="text-muted">
+                        <a href="mailto:brickeduprn@example.com">brickeduprn@example.com</a>
+                    </p>
                 </div>
             </div>
         </div>
@@ -358,15 +271,15 @@
 <footer class="container mt-5 py-5">
     <div class="row">
         <div class="col-12 col-md-4 pt-3">
-            <img class="navbar-brand logo px-3" style="max-height: 100px" src="assets/images/placeholder.png" alt="CONTENT HERE">
+            <img class="navbar-brand logo px-3" style="max-height: 100px" src="assets/images/placeholder.png" alt="Bricked Up RN">
             <small id="copyright" class="d-block mb-3 text-muted mt-3">
                 Copyright &copy; 2024 Bricked Up RN.
             </small>
         </div>
         <!-- ABOUT US -->
         <div id="aboutUs" class="col-12 col-md-8">
-            <h3 class="mt-3">CONTENT HERE</h3>
-            <p class="lh-sm">CONTENT HERE</p>
+            <h3 class="mt-3">About Us</h3>
+            <p class="lh-sm">Bricked Up RN is a progression-oriented, laid-back guild on the Horde side of Area 52. Founded during the War Within expansion, we focus on both PvE and PvP content, aiming to create a balanced and social environment where players can enjoy all aspects of the game while pushing towards higher goals.</p>
         </div>
     </div>
 </footer>
