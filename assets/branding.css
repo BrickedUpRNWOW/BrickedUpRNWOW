@@ -1,10 +1,10 @@
 :root {
-  --primary-color: #A94994;
-  --secondary-color: #D24C2B;
-  --tertiary-color: #004665;
+  --primary-color: #B22222; /* Dark Red */
+  --secondary-color: #FF4500; /* Fiery Orange */
+  --tertiary-color: #2F2F2F; /* Dark Gray */
 }
 
-.branding-purple {
+.branding-red {
     color: var(--primary-color);
 }
 
@@ -12,16 +12,12 @@
     color: var(--primary-color);
 }
 
-.branding-purple-bg {
+.branding-red-bg {
     background-color: var(--primary-color);
 }
 
 .branding-primary-bg {
     background-color: var(--primary-color);
-}
-
-.branding-orange {
-    color: var(--secondary-color);
 }
 
 .branding-orange {
@@ -40,7 +36,7 @@
     background-color: var(--secondary-color);
 }
 
-.branding-blue {
+.branding-gray {
     color: var(--tertiary-color);
 }
 
@@ -48,7 +44,7 @@
     color: var(--tertiary-color);
 }
 
-.branding-blue-bg {
+.branding-gray-bg {
     background-color: var(--tertiary-color);
 }
 
@@ -56,23 +52,24 @@
     background-color: var(--tertiary-color);
 }
 
-
-/*@font-face {
-    font-family: 'Quasimoda';
-    src: url('fonts/Quasimoda-Bold.woff2') format('woff2'),
-         url('fonts/Quasimoda-Bold.woff') format('woff');
+@font-face {
+    font-family: 'Anton';
+    src: url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Quasimoda';
-    src: url('fonts/Quasimoda-Regular.woff2') format('woff2'),
-         url('fonts/Quasimoda-Regular.woff') format('woff');
+    font-family: 'Bebas Neue';
+    src: url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
     font-weight: normal;
     font-style: normal;
-}*/
+}
 
-.branding-font-cabin {
-    font-family: 'Cabin', sans-serif;
+.branding-font-anton {
+    font-family: 'Anton', sans-serif;
+}
+
+.branding-font-bebas {
+    font-family: 'Bebas Neue', sans-serif;
 }
