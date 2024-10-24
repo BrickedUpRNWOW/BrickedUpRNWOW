@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="description">
+    <meta name="author" content="author">
+    <title>404 - Bricked Up RN</title>
+    <link rel="icon" type="image/x-icon" href="wowfavico.png" />
+    <link href="assets/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/product.css" rel="stylesheet">
+    <link href="assets/branding.css" rel="stylesheet">
+</head>
+
+<body class="branding-font-cabin">
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-8 offset-md-2 text-center">
+                <h1 class="display-4"><?php echo isset($json_content['MainHeader']) ? html_entity_decode($json_content['MainHeader'] : 'MainHeader'; ?></h1>
+                <p class="lead"><?php echo isset($json_content['SecondaryHeader']) ? html_entity_decode($json_content['SecondaryHeader'] : 'SecondaryHeader'; ?></p>
+                <p><?php echo isset($json_content['Paragraph']) ? html_entity_decode($json_content['Paragraph'] : 'Paragraph'; ?></p>
+                <a href="<?php echo esc_url(home_url('/')); ?>" class="btn btn-primary"><?php echo isset($json_content['ButtonText']) ? html_entity_decode($json_content['ButtonText'] : 'ButtonText'; ?></a>
+            </div>
+        </div>
+    </div>
+</body>
